@@ -1,0 +1,48 @@
+form > button,input{
+    margin: 5px;
+   /* margin-left:50px;
+   margin-top: 20px;
+   margin-bottom: 5px; */
+}
+.grid{
+    display: flex;
+    justify-content: center space-between; 
+    flex-direction: column;
+    
+    align-items: center;
+}
+table{
+    width: auto;
+    background-color: whitesmoke;
+    box-shadow: 10px 20px 20px black;
+}
+/* .table{
+    align-items: center;
+    justify-content: center;
+} */
+table,td,th{
+   
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+}
+th{
+    background-color: rgb(133, 197, 197);
+}
+
+.actionsButtons >button{
+    margin: 5px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+button{
+    /* width: 100px;
+    height: 20px; */
+}
+input[type=text]{
+   
+}

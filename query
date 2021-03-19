@@ -1,0 +1,4 @@
+﻿create table todo(id serial primary key,task varchar,status varchar);
+select * from todo;
+select status from todo where id =1;
+insert into todo(task,status) values('prashannt','b');
